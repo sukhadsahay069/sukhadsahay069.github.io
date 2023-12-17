@@ -16,6 +16,11 @@
     }
 
     #passportImage {
+      width: 35mm;
+      height: 45mm;
+      object-fit: cover; /* Maintain aspect ratio and cover the container */
+      border: 2px solid #3498db;
+      border-radius: 5px;
       margin-bottom: 20px;
     }
 
@@ -44,4 +49,17 @@
 
     #price:hover {
       background-color: #000;
-      color: #
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <img id="passportImage" src="WhatsApp Image 2023-12-17 at 10.40.13 PM.jpeg" alt="Passport Size Image">
+  <div id="bigText">MENTORS HODDIE</div>
+  <div id="price" onclick="window.open('https://store.mentorsedu.com', '_blank')">Price: ₹499</div>
+
+  <script>
+    // You can add JavaScript code here if needed
+  </script>
+</body>
+</html>
